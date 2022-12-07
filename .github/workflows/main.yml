@@ -1,5 +1,8 @@
 name: CI
 on: [push]
+defaults:
+ run:
+  working-directory: ./frontend
 jobs:
   eslint:
     name: CleaningWebsite
