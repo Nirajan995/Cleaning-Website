@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar.js';
-import HomePage from '../components/Home.js';
+import HomeScreen from '../screens/HomeScreen.js';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <title>Cleaning Website</title>
       </Head>
       <Navbar />
-      <HomePage />
+      <HomeScreen />
     </div>
 
   )

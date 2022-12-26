@@ -8,9 +8,9 @@ const Home = () => {
          <div className='p-5 text-white z-[2] mt-[-10rem]'>
             <h2 className='text-5xl font-bold'>Cleaning Service</h2>
             <p className='py-5 text-xl'>Having a simplified, uncluttered home is a form of self-care.</p>
-            <button className='px-8 py-2 border'>Book</button>
+            <button className='px-8 py-2 border'>Contact us</button>
          </div>
-      </div>
+      </div >
    )
 }
 
