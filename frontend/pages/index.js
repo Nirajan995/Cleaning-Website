@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Navbar from '../components/Navbar.js';
 import HomeScreen from '../screens/HomeScreen.js';
 
 export default function Home() {
@@ -8,7 +7,6 @@ export default function Home() {
       <Head>
         <title>Cleaning Website</title>
       </Head>
-      <Navbar />
       <HomeScreen />
     </div>
 
